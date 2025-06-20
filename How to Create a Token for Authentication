@@ -1,0 +1,22 @@
+# INSTALLED_APPS = [
+#     ...
+#     'rest_framework',
+#     'rest_framework.authtoken',
+#     ...
+# ]
+
+
+
+# python manage.py migrate
+
+
+# python manage.py shell
+
+
+# from django.contrib.auth.models import User
+# user = User.objects.create_user(username='testuser', password='testpassword')
+
+
+# from rest_framework.authtoken.models import Token
+# token, created = Token.objects.get_or_create(user=user)
+# print(token.key)
